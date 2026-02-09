@@ -1,4 +1,4 @@
-name: CI 
+name: CI -Devopes comp2156 
 on:   
   push:     
     branches: [ "main" ]   
@@ -19,3 +19,4 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+        
